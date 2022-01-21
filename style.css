@@ -5,7 +5,7 @@ body {
 .honeycolor{
   color: rgb(255, 177, 9);
 }
-section{
+.flexible-container{
   display: flex;
   margin-bottom: 150px;
 }
@@ -16,6 +16,18 @@ section{
 }
 .halfwidth img{
   width: 70%;
+}
+.halfwidth2{
+  width: 50%;
+  padding-right: 5%;
+  padding-bottom: 3%;
+}
+.halfwidth2 img{
+  width: 70%;
+  padding-left: 20%;
+}
+.halfwithtext{
+  padding-right: 10%;
 }
 .link-button{
 text-decoration: none;
@@ -33,4 +45,5 @@ font-weight: 700;
   background-image: url(images/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
+  padding-bottom: -5%;
 }
