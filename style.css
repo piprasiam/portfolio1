@@ -2,6 +2,14 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0%;
 }
+
+h1{
+  font-size: 50px;
+}
+
+h2{
+  font-size: 40px;
+}
 .honeycolor{
   color: rgb(255, 177, 9);
 }
@@ -46,4 +54,29 @@ font-weight: 700;
   background-repeat: no-repeat;
   background-position: right;
   padding-bottom: -5%;
+}
+.experience-area{
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+.experience-item{
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 30px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 40px grey;
+}
+#Illusionist-xp{
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+#mind-reader-xp{
+  border-left: 7px solid;
+  border-image: linear-gradient(salmon, tomato);
+  border-image-slice: 1;
+}
+footer p{
+  text-align: center;
 }
